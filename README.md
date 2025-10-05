@@ -138,6 +138,7 @@ Build doc-search-ai-agent from the source and intsall dependencies:
 
     ```
     cd doc-search-ai-agent
+	export OPENAI_API_KEY="your_openai_api_key"
     ```
 
 3. **Install the dependencies:**
