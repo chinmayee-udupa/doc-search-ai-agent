@@ -78,35 +78,35 @@ Doc Search AI Agent is an AI-powered document retrieval agent built to let users
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/chinmayee-udupa/doc-search-ai-agent/blob/master/ingest.py'>ingest.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Contains functions for reading repository data and indexing it.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/chinmayee-udupa/doc-search-ai-agent/blob/master/search_tools.py'>search_tools.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Contains functions for searching and retrieving documents from the index.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/chinmayee-udupa/doc-search-ai-agent/blob/master/requirements.txt'>requirements.txt</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Lists the dependencies required for this project.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/chinmayee-udupa/doc-search-ai-agent/blob/master/pyproject.toml'>pyproject.toml</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Specifies the project's Python environment and dependencies.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/chinmayee-udupa/doc-search-ai-agent/blob/master/logs.py'>logs.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Contains functions for logging events.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/chinmayee-udupa/doc-search-ai-agent/blob/master/app.py'>app.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Contains the main application code for this project.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/chinmayee-udupa/doc-search-ai-agent/blob/master/main.py'>main.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Contains the main entry point for this project.</code></td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
 					<td style='padding: 8px;'><b><a href='https://github.com/chinmayee-udupa/doc-search-ai-agent/blob/master/search_agent.py'>search_agent.py</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'>Contains functions for initializing and interacting with the search agent.</code></td>
 				</tr>
 			</table>
 		</blockquote>
@@ -142,22 +142,11 @@ Build doc-search-ai-agent from the source and intsall dependencies:
 
 3. **Install the dependencies:**
 
-<!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![pip][pip-shield]][pip-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [pip-shield]: https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white -->
-	<!-- [pip-link]: https://pypi.org/project/pip/ -->
-
 	**Using [pip](https://pypi.org/project/pip/):**
 
-	```sh
-	❯ pip install -r requirements.txt
 	```
-<!-- SHIELDS BADGE CURRENTLY DISABLED -->
-	<!-- [![uv][uv-shield]][uv-link] -->
-	<!-- REFERENCE LINKS -->
-	<!-- [uv-shield]: https://img.shields.io/badge/uv-DE5FE9.svg?style=for-the-badge&logo=uv&logoColor=white -->
-	<!-- [uv-link]: https://docs.astral.sh/uv/ -->
+	pip install -r requirements.txt
+	```
 
 	**Using [uv](https://docs.astral.sh/uv/):**
 
@@ -168,9 +157,7 @@ Build doc-search-ai-agent from the source and intsall dependencies:
 
 ### Usage
 
-Run the project with:
-
-**Using [uv](https://docs.astral.sh/uv/):**
+Run the project with [uv](https://docs.astral.sh/uv/):
 ```
 uv run streamlit run app.py
 ```
@@ -182,10 +169,3 @@ uv run streamlit run app.py
 
 Doc-search-ai-agent is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
----
-
-
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
-
----
