@@ -163,6 +163,7 @@ Run the project with [uv](https://docs.astral.sh/uv/):
 uv run streamlit run app.py
 ```
 
+![Chat Screen](assets/streamlit_app.jpeg)
 ---
 
 
